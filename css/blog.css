@@ -1,0 +1,15 @@
+body{
+    background-image: none;
+}
+:root {
+    --bg-color: #222831;
+    --teal-color: #00ADB5;
+    --grey-color: #EEEEEE;
+    --bg-color2: #393E46;
+}
+.content__box{
+    background-color: var(--grey-color);
+}
+::selection{
+    background-color: #00ADB5;
+}
